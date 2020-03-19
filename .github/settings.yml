@@ -1,0 +1,104 @@
+# These settings are synced to GitHub by https://probot.github.io/apps/settings/
+
+repository:
+  # A URL with more information about the repository
+  homepage: https://softwareguild.instructure.com
+
+  # See https://developer.github.com/v3/repos/#edit for all available settings.
+  # Either `true` to make the repository private, or `false` to make it public.
+  private: true
+
+  # Either `true` to enable issues for this repository, `false` to disable them.
+  has_issues: true
+
+  # Either `true` to enable projects for this repository, or `false` to disable them.
+  # If projects are disabled for the organization, passing `true` will cause an API error.
+  has_projects: true
+
+  # Either `true` to enable the wiki for this repository, `false` to disable it.
+  has_wiki: false
+
+  # Either `true` to enable downloads for this repository, `false` to disable them.
+  has_downloads: true
+
+  # Updates the default branch for this repository.
+  default_branch: master
+
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent
+  # squash-merging.
+  allow_squash_merge: true
+
+  # Either `true` to allow merging pull requests with a merge commit, or `false`
+  # to prevent merging pull requests with merge commits.
+  allow_merge_commit: true
+
+  # Either `true` to allow rebase-merging pull requests, or `false` to prevent
+  # rebase-merging.
+  allow_rebase_merge: true
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: must-fix
+    color: FF0039
+    description: Issue must be fixed to meet expectation.
+
+  - name: could-improve
+    color: F7DC6F
+    description: Issue could be fixed for better performance or polish.
+    
+  - name: documentation
+    color: F7F9F9
+    description: Design & Support documentation.
+    
+  - name: ready-for-review
+    color: 00a90a
+    description: Assignment is ready for review.
+    
+  - name: class-work
+    color: E5E8E8
+    description: Work is not part of summative assignment.
+    
+  - name: testing
+    color: D0ECE7
+    description: Test Infastructure & Implementation
+    
+  - name: milestone-1
+    description: Work is part of Milestone 1 Assignment
+    color: D6EAF8
+
+  - name: milestone-2
+    color: AED6F1
+    description: Work is part of Milestone 2 Assignment
+    
+  - name: milestone-3
+    color: 85C1E9
+    description: Work is part of Milestone 3 Assignment
+    
+  - name: milestone-4
+    color: 5DADE2
+    description: Work is part of Milestone 4 Assignment
+    
+  - name: milestone-5
+    color: 1F618D
+    description: Work is part of OOP Mastery Project
+
+  - name: milestone-6
+    color: EBDEF0
+    description: Work is part of Milestone 6 Assignment
+
+  - name: milestone-7
+    color: D7BDE2
+    description: Work is part of Milestone 7 Assignment
+
+  - name: milestone-8
+    color: C39BD3
+    description: Work is part of Milestone 8 Assignment
+
+  - name: milestone-9
+    color: AF7AC5
+    description: Work is part of Milestone 9 Assignment
+   
+  - name: milestone-10
+    color: 76448A
+    description: Work is part of DDWA Mastery Project
+    
