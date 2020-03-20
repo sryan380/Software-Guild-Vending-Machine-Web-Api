@@ -1,0 +1,65 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Steves Vending Machine</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Vending Machine</h1>
+    <hr />
+    <div class="row" id="mainDiv">
+        <div class="col-md-9" id="Buttons">
+
+        </div>
+        <div class="col-md-3" id="menus">
+            <h2 style="text-align: center;">Total $ in</h2>
+            <div id="moneyIn" style="border: 1px solid black; text-align: center; margin-left: 20%; margin-right: 20%;">0.00</div>
+            <div class="row">
+                <button type="button" id="addDollar" class="col-md-5" style="margin: 10px;" onclick="addMoney(1.00)">
+                    Add Dollar
+                </button>
+                <button type="button" id="addQuater" class="col-md-5" style="margin: 10px;" onclick="addMoney(.25)">
+                    Add Quater
+                </button>
+            </div>
+            <div class="row">
+                <button type="button" id="addDime" class="col-md-5" style="margin: 10px;" onclick="addMoney(.10)">
+                    Add Dime
+                </button>
+                <button type="button" id="addNickel" class="col-md-5" style="margin: 10px;" onclick="addMoney(.05)">
+                    Add Nickel
+                </button>
+            </div>
+
+            <hr />
+
+            <h2 style="text-align: center;">Messages</h2>
+            <div id="message" style="border: 1px solid black; text-align: center; margin-left: 5%; margin-right: 5%;">
+                Welcome!</div>
+            <div class="row" style="margin: 5%;">
+                <h4 class="col-md-4">Item:</h4>
+                <div class="col-md-7" id="itemNum" style="border: 1px solid black; text-align: center;">Pick an Item</div>
+            </div>
+            <div style="text-align: center;">
+                <button type="button" id="makePurchase" style="text-align: center;" onclick="vendItem()">Make Purchase</button>
+            </div>
+
+            <hr />
+
+            <h2 style="text-align: center;">Change</h2>
+            <div id="moneyOut" style="border: 1px solid black; text-align: center; margin-left: 20%; margin-right: 20%;">N/A</div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/home.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
