@@ -66,6 +66,9 @@ function vendItem() {
             $('#moneyOut').append(changeString);
             money = 0;
             addMoney(0);
+            loadItems();
+            $('#message').empty();
+            $('#message').append('success!');
         },
         error: function (jqXHR, textStatus, errorThrown) {
             $('#message').empty();
